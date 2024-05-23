@@ -1,0 +1,82 @@
+body {
+    background: rgb(16, 16, 16);
+}
+.container-custom {
+    max-width: 1400px;
+}
+/* Header style*/
+header .navbar {
+    border-radius: 16px;
+    background: rgb(32, 32, 32);
+    color: rgb(128, 128, 128);
+    text-wrap: nowrap;
+}
+header .navbar li {
+    list-style: none;
+}
+header .navbar form {
+    max-width: 671px;
+    width: 100%;
+    position: relative;
+    height: 48px;
+    border-radius: 8px;
+    background: rgb(64, 64, 64);
+    display: flex;
+    align-items: center;
+}
+header .navbar form input {
+    background: rgb(64, 64, 64);
+    outline: none;
+    border: none;
+    color: rgb(128, 128, 128);
+}
+header .navbar form input:focus {
+    background: rgb(64, 64, 64);
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: rgb(128, 128, 128);
+    text-wrap: nowrap;
+}
+header .navbar form button {
+    position: absolute;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgb(32, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+header .navbar form button:hover {
+    background: #fff;
+}
+.categories-item {
+    display: flex;
+    gap: 17px;
+}
+.categories-item img {
+    max-width: 18px;
+    max-height: 12px;
+}
+.promotion a {
+    color: rgb(92, 186, 72);
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.hero {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
