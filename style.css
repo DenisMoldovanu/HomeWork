@@ -67,6 +67,18 @@ header .navbar form button:hover {
 .navbar-collapse {
     flex-grow: 0;
 }
+.controls-container {
+    margin-bottom: 15px;
+}
+
+.controls-container a {
+    margin-right: 32px;
+    color: rgb(64, 64, 64);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/*-------------- */
 
 .hero {
     background-color: #f8f9fa;
@@ -79,4 +91,55 @@ header .navbar form button:hover {
     color: white;
     padding: 20px 0;
     text-align: center;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+#button {
+    position: relative;
+    display: block;
+    width: 64px;
+    height: 32px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 8px;
+    cursor: pointer;
+    /* transform: scale(0.4); */
+    /* margin: 50px auto; */
+}
+
+#knob {
+    width: 32px;
+    height: 32px;
+    background: rgb(64, 64, 64);
+    background-size: 32px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 8px;
+    transition: 0.4s ease left, 0.4s ease background-position;
+    z-index: 2;
+}
+
+#subscribe,
+#alright {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    z-index: 1;
+}
+
+#alright {
+    margin-left: 30px;
+}
+
+#lol-checkbox:checked + #button #knob {
+    left: 32px;
+    background-position: -350px 0;
 }
