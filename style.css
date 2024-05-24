@@ -77,6 +77,9 @@ header .navbar form button:hover {
     text-decoration: none;
     font-size: 14px;
 }
+.controls-container .theme-control {
+    margin-right: 16px;
+}
 
 /*-------------- */
 
@@ -105,17 +108,15 @@ input[type="checkbox"] {
     background-color: rgb(32, 32, 32);
     border-radius: 8px;
     cursor: pointer;
-    /* transform: scale(0.4); */
-    /* margin: 50px auto; */
 }
 
 #knob {
     width: 32px;
-    height: 32px;
+    height: 30px;
     background: rgb(64, 64, 64);
     background-size: 32px;
     position: relative;
-    top: 0px;
+    top: 1px;
     left: 0px;
     border-radius: 8px;
     transition: 0.4s ease left, 0.4s ease background-position;
@@ -131,12 +132,12 @@ input[type="checkbox"] {
     font-size: 14px;
     font-weight: bold;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 10px;
-    z-index: 1;
+    margin-left: 8px;
+    z-index: 3;
 }
 
 #alright {
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 #lol-checkbox:checked + #button #knob {
