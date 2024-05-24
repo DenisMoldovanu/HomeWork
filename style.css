@@ -5,6 +5,9 @@ body {
     max-width: 1400px;
 }
 /* Header style*/
+header {
+    margin-bottom: 16px;
+}
 header .navbar {
     border-radius: 16px;
     background: rgb(32, 32, 32);
@@ -129,12 +132,28 @@ header .navbar form button:hover {
     left: 32px;
 }
 
-/*-------------- */
+/*-------------- HERO*/
 
-.hero {
-    background-color: #f8f9fa;
-    padding: 50px 0;
+.hero .hero-subtitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.hero .hero-subtitle p {
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
     text-align: center;
+}
+.hero-img-container {
+    border-radius: 16px;
+}
+.hero-img-container img {
+    width: 100%;
 }
 
 .footer {
