@@ -135,6 +135,17 @@ header .navbar form button:hover {
 .controls-container #lol-checkbox:checked + #button #knob {
     left: 32px;
 }
+.phone-nr {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.status {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgb(92, 186, 72);
+}
 
 @media screen and (max-width: 992px) {
     .categories-item {
@@ -153,6 +164,9 @@ header .navbar form button:hover {
         flex-direction: row;
         gap: 50px;
         padding-top: 50px;
+    }
+    .controls-container {
+        display: none;
     }
 }
 @media screen and (max-width: 767px) {
