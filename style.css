@@ -320,6 +320,7 @@ header .navbar form button:hover {
     width: 24px;
     height: 24px;
     border-radius: 50%;
+    cursor: pointer;
 }
 .color-item.active {
     border: 2px solid rgb(255, 255, 255);
@@ -351,6 +352,7 @@ header .navbar form button:hover {
     text-align: center;
     display: block;
     padding: 4px 14px;
+    cursor: pointer;
 }
 .memory-item.active {
     background: rgb(128, 128, 128);
